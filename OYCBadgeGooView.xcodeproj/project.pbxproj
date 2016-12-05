@@ -13,6 +13,7 @@
 		3A9655D71DF53F2B00AFDB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9655D51DF53F2B00AFDB65 /* Main.storyboard */; };
 		3A9655D91DF53F2B00AFDB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9655D81DF53F2B00AFDB65 /* Assets.xcassets */; };
 		3A9655DC1DF53F2B00AFDB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9655DA1DF53F2B00AFDB65 /* LaunchScreen.storyboard */; };
+		3AE404F81DF5426500F259C3 /* OYCBadgeGooView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE404F71DF5426500F259C3 /* OYCBadgeGooView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3A9655D81DF53F2B00AFDB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9655DB1DF53F2B00AFDB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9655DD1DF53F2B00AFDB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE404F61DF5426500F259C3 /* OYCBadgeGooView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OYCBadgeGooView.h; path = ../../../Documents/OYCBadgeGooView.h; sourceTree = "<group>"; };
+		3AE404F71DF5426500F259C3 /* OYCBadgeGooView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OYCBadgeGooView.m; path = ../../../Documents/OYCBadgeGooView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +65,8 @@
 				3A9655D01DF53F2B00AFDB65 /* AppDelegate.m */,
 				3A9655D21DF53F2B00AFDB65 /* ViewController.h */,
 				3A9655D31DF53F2B00AFDB65 /* ViewController.m */,
-				3A9655D51DF53F2B00AFDB65 /* Main.storyboard */,
-				3A9655D81DF53F2B00AFDB65 /* Assets.xcassets */,
-				3A9655DA1DF53F2B00AFDB65 /* LaunchScreen.storyboard */,
-				3A9655DD1DF53F2B00AFDB65 /* Info.plist */,
+				3AE404F61DF5426500F259C3 /* OYCBadgeGooView.h */,
+				3AE404F71DF5426500F259C3 /* OYCBadgeGooView.m */,
 				3A9655CC1DF53F2B00AFDB65 /* Supporting Files */,
 			);
 			path = OYCBadgeGooView;
@@ -74,6 +75,10 @@
 		3A9655CC1DF53F2B00AFDB65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A9655D51DF53F2B00AFDB65 /* Main.storyboard */,
+				3A9655D81DF53F2B00AFDB65 /* Assets.xcassets */,
+				3A9655DA1DF53F2B00AFDB65 /* LaunchScreen.storyboard */,
+				3A9655DD1DF53F2B00AFDB65 /* Info.plist */,
 				3A9655CD1DF53F2B00AFDB65 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,6 +110,7 @@
 		3A9655C11DF53F2B00AFDB65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = OYC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = daniel;
 				TargetAttributes = {
@@ -151,6 +157,7 @@
 			files = (
 				3A9655D41DF53F2B00AFDB65 /* ViewController.m in Sources */,
 				3A9655D11DF53F2B00AFDB65 /* AppDelegate.m in Sources */,
+				3AE404F81DF5426500F259C3 /* OYCBadgeGooView.m in Sources */,
 				3A9655CE1DF53F2B00AFDB65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +305,7 @@
 				3A9655E21DF53F2B00AFDB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

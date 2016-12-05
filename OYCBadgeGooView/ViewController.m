@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OYCBadgeGooView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    OYCBadgeGooView *badgeView = [OYCBadgeGooView badgeGooView];
+    badgeView.frame = CGRectMake(0, 0, 30, 30);
+    badgeView.center = self.view.center;
+    
+    [self.view addSubview:badgeView];
 }
 
 - (void)didReceiveMemoryWarning {
