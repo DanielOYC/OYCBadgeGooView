@@ -61,8 +61,6 @@
 		3A9655CB1DF53F2B00AFDB65 /* OYCBadgeGooView */ = {
 			isa = PBXGroup;
 			children = (
-				3A9655CF1DF53F2B00AFDB65 /* AppDelegate.h */,
-				3A9655D01DF53F2B00AFDB65 /* AppDelegate.m */,
 				3A9655D21DF53F2B00AFDB65 /* ViewController.h */,
 				3A9655D31DF53F2B00AFDB65 /* ViewController.m */,
 				3AE404F61DF5426500F259C3 /* OYCBadgeGooView.h */,
@@ -75,6 +73,8 @@
 		3A9655CC1DF53F2B00AFDB65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A9655CF1DF53F2B00AFDB65 /* AppDelegate.h */,
+				3A9655D01DF53F2B00AFDB65 /* AppDelegate.m */,
 				3A9655D51DF53F2B00AFDB65 /* Main.storyboard */,
 				3A9655D81DF53F2B00AFDB65 /* Assets.xcassets */,
 				3A9655DA1DF53F2B00AFDB65 /* LaunchScreen.storyboard */,
